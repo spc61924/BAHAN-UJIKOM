@@ -34,7 +34,7 @@
 	<!---datepicker-->
 	<link href="{{ asset('') }}plugin/bootstrap-datepicker/css/bootstrap-datepicker3.css" rel="stylesheet" />
 	<link href="{{ asset('') }}plugin/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" />
-    
+
     <!--- JQuery min js --->
 	<script src="{{ asset('') }}plugin/jquery-3.6.0.js"></script>
 	<script src="{{ asset('') }}back/plugins/jquery/jquery.min.js"></script>
@@ -67,7 +67,7 @@
     <!-- Page -->
     <div class="page custom-index">
         @include('template_back.navheader')
-        @include('template_back.sidebar') 
+        @include('template_back.sidebar')
 
         <!-- main-content -->
 		<div class="main-content app-content">
@@ -80,7 +80,7 @@
             <!-- /container -->
         </div>
         <!-- /main-content -->
-        
+
         <!--Sidebar-right-->
 		<div class="sidebar sidebar-right sidebar-animate">
 			<div class="panel panel-primary card mb-0">
@@ -238,7 +238,7 @@
     <!--- Back-to-top --->
     <a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
 
-    
+
     <!--- Bootstrap Bundle js --->
     <script src="{{ asset('') }}back/plugins/bootstrap/popper.min.js"></script>
     <script src="{{ asset('') }}back/plugins/bootstrap/js/bootstrap.min.js"></script>
